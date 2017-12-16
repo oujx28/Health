@@ -1,0 +1,458 @@
+<resources>
+    <string name="app_name">家庭智慧健康</string>
+
+    <!--#########***** 通用字符串——开始 *****#########-->
+    <!-- 响应 -->
+    <string name="response_no_data">没有数据！</string>
+    <string name="response_no_more_data">没有更多数据!</string>
+    <string name="response_loading_failed">数据加载失败!</string>
+    <string name="response_exception">网络异常，请重试！</string>
+
+    <string name="response_delete_success">数据删除成功!</string>
+    <string name="response_delete_failed">数据删除失败!</string>
+    <string name="response_submit_success">数据提交成功!</string>
+    <string name="response_submit_failed">数据提交失败!</string>
+
+    <string name="com_exit_app">再按一次退出程序</string>
+    <string name="com_submit">提交</string>
+    <string name="com_add">添加</string>
+    <string name="com_delete">删除</string>
+    <string name="com_complete">完成</string>
+    <string name="com_download">立即下载</string>
+    <string name="com_input_hint">请输入&#8230;</string>
+    <string name="com_redo">重新辨识</string>
+
+    <string name="com_family_members">家庭成员</string>
+    <string name="com_select_family_members">选择家庭成员</string>
+    <!--#########***** 通用字符串——结束 *****#########-->
+
+    <!--引导页-->
+    <string name="guide_page_title">引导页</string>
+
+    <!--#########***** 远程咨询——开始 *****#########-->
+    <string name="preview_txt">预览</string>
+    <!--远程咨询主页-->
+    <string name="consult_main_title">远程咨询</string>
+
+    <!--健康档案-->
+    <string name="records_basic_info">基本信息</string>
+    <string name="records_username">姓名</string>
+    <string name="records_gender">性别</string>
+    <string name="records_gender_m">男</string>
+    <string name="records_gender_w">女</string>
+    <string name="records_age">年龄</string>
+    <string name="records_height">身高</string>
+    <string name="records_weight">体重</string>
+    <string name="records_area">地区</string>
+    <string name="records_phone">联系电话</string>
+    <string name="records_health_info">健康信息</string>
+    <string name="records_blood_type">血型</string>
+    <string name="records_allergy">药物过敏史</string>
+    <string name="records_past_history">既往病史</string>
+    <string name="records_hereditary">遗传病史</string>
+    <string name="records_problem">健康问题</string>
+    <string name="records_problem_hint">请输入您的健康问题</string>
+
+    <!--病例管理-->
+    <string name="case_history">病例信息</string>
+
+    <!--添加病历-->
+    <string name="add_case_history_type">病例类型</string>
+    <string name="add_case_history_explain">说\t\t明</string>
+
+    <!--健康评估-->
+    <string name="headlth_assessment">问卷信息</string>
+
+    <!--用药提醒大模块——开始 zhukui-->
+    <string name="drug_remind">用药提醒</string>
+    <string name="drug_name">药品名称：</string>
+    <string name="drug_name_hint">请输入药名名称</string>
+    <string name="take_dosage">服用剂量：</string>
+    <string name="take_dosage_hint">请输入服用剂量</string>
+
+    <string name="drug_name_dose">药名剂量</string>
+    <string name="drug_name_dose_hint">请输入药名及剂量</string>
+
+    <string name="start_time">开始日期</string>
+    <string name="start_time_hint">请输入开始日期</string>
+    <string name="end_time">结束日期</string>
+    <string name="end_time_hint">请输入结束日期</string>
+    <string name="time">12:00</string>
+    <string name="date">2015&#8211;02&#8211;22</string>
+    <string name="add_alarm_clock">添加闹钟</string>
+    <string name="add_drug_dose">添加药品</string>
+    <string name="remind_time">提醒时刻</string>
+    <string name="remarks">备&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;注</string>
+    <string name="remarks_hint">请输入备注</string>
+
+    <!--用药提醒大模块——结束 zhukui-->
+
+    <!--#########***** 远程咨询——结束 *****#########-->
+
+
+    <!--#########***** 家庭看护——开始 *****#########-->
+    <string name="monitor_main_title">家庭看护</string>
+
+
+    <!--#########***** 家庭看护——结束 *****#########-->
+
+
+    <!--#########***** 家庭档案——开始 *****#########-->
+    <!--添加定位设备-->
+    <string name="dev_add_info">用户信息</string>
+    <string name="dev_add_member">家庭成员</string>
+    <string name="dev_add_device_name">设备名称</string>
+    <string name="dev_add_device_name_hint">请输入设备名称</string>
+    <string name="dev_add_device_id">设备串号</string>
+    <string name="dev_add_device_id_hint">请输入设备串号</string>
+    <!--定位设备列表-->
+    <string name="dev_list_info">设备信息</string>
+
+    <string name="archives_Image_view_description">头像说明</string>
+    <string name="archives_main_title">家庭档案</string>
+    <string name="archives_user_name">姓名</string>
+    <string name="archives_user_sex">性别</string>
+    <string name="archives_user_age">年龄</string>
+    <!--#########***** 家庭档案——结束 *****#########-->
+
+
+    <!--#########***** 健康检查——开始 *****#########-->
+    <string name="health_main_title">健康检查</string>
+
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+
+    <string name="conn_configuration">请先配置您的串行端口！</string>
+    <string name="conn_security">您不具有读/写权限的串行端口!</string>
+    <string name="conn_not_open">串行端口未能被打开！</string>
+
+    <string name="health_com_tip">温馨提示</string>
+    <string name="health_com_tip_null">暂无提示！</string>
+    <string name="health_com_suggest">建议</string>
+    <string name="health_com_suggest_null">暂无建议！</string>
+    <string name="health_com_history">历史数据</string>
+    <string name="health_com_conclusion_tip">测量结论：</string>
+    <string name="health_com_conclusion_tip_null">暂无结论！</string>
+
+    <!--测量血糖-->
+    <string name="glu_title">血糖测量</string>
+    <string name="glu_code">血糖CODE码：%1$s</string>
+    <string name="glu_code_def">血糖预设CODE码：%1$s</string>
+    <string name="glu_result_tip">血糖测量结果</string>
+    <string name="glu_meal_before">餐前</string>
+    <string name="glu_meal_after">餐后</string>
+    <string name="glu_meal_tip">正常范围：空腹在3.9~6.1mmol/L之间，餐后2小时小于7.8mmol/L</string>
+
+    <!--血糖测量详情-->
+    <string name="glu_detail_title">血糖测量详情</string>
+
+    <string name="glu_history_title">血糖历史数据</string>
+
+    <!--测量血压-->
+    <!-- 测量血压引导说明 -->
+    <string name="dialog_title">引导说明</string>
+    <string name="dialog_step1">第一步</string>
+    <string name="dialog_step2">第二步</string>
+    <string name="dialog_step3">第三步</string>
+    <string name="dialog_bp_step1_des">请检查袖带气管是否正确连接主机</string>
+    <string name="dialog_bp_step2_des">请按照正确方法佩戴好袖带</string>
+    <string name="dialog_bp_step3_des">请点击打开按钮开始测量</string>
+    <string name="dialog_ecg_step1_des">LA夹在左手</string>
+    <string name="dialog_ecg_step2_des">RA夹在右手</string>
+    <string name="dialog_ecg_step3_des">RL夹在右腿</string>
+
+
+    <string name="bp_title">血压测量</string>
+    <string name="bp_result_tip">血压测量结果</string>
+    <string name="bp_sbp_title">收缩压</string>
+    <string name="bp_sbp_result">高压：%1$d&#160;mpa</string>
+    <string name="bp_sbp_tip">正常范围：90~140&#160;mmHg </string>
+    <string name="bp_dbp_title">舒张压</string>
+    <string name="bp_dbp_result">低压：%1$d&#160;mpa</string>
+    <string name="bp_dbp_tip">正常范围：60~90&#160;mmHg</string>
+
+    <!--血压测量详情-->
+    <string name="bp_detail_title">血压测量详情</string>
+
+    <string name="bp_history_title">血压历史数据</string>
+
+    <!--测量心电-->
+    <string name="ecg_title">心电测量</string>
+    <string name="ecg_result_tip">心率测量结果</string>
+    <string name="ecg_lead_tip_ra">RA导联脱落</string>
+    <string name="ecg_lead_tip_la">LA导联脱落</string>
+    <string name="ecg_analysis">心电采集</string>
+    <string name="ecg_analysis_timer">正在采集(%1$ss)</string>
+    <string name="ecg_ecg_title">心电图</string>
+    <string name="ecg_hr_title">心率</string>
+    <string name="ecg_hr_result">心率：%1$d&#160;次/每分钟</string>
+    <string name="ecg_hr_tip">正常范围：50&#8211;120 bpm</string>
+    <string name="ecg_amplitude">增益</string>
+    <string name="ecg_marking">线宽</string>
+    <string name="ecg_wavelength">波速</string>
+
+    <!--心电测量详情-->
+    <string name="ecg_detail_title">心电测量详情</string>
+
+    <string name="ecg_history_title">心电历史数据</string>
+
+    <!--测量血氧-->
+    <string name="spo2h_title">血氧测量</string>
+    <string name="spo2h_result_tip">血氧测量结果</string>
+    <string name="spo2h_probe_off">请将手指放入血氧探头</string>
+    <string name="spo2h_upload">采集上传</string>
+    <string name="spo2h_title_tip">血氧饱和度和脉率</string>
+    <string name="spo2h_normal_tip_1">说明：</string>
+    <string name="spo2h_normal_tip_2">1.血氧饱和度——血氧含量的正常数值在94%以上；\n2.脉&#160;率——正常成人范围在50~120bpm 之间的</string>
+    <string name="spo2h_waveform_title">脉率波形</string>
+
+    <!--血氧测量详情-->
+    <string name="spo2h_detail_title">血氧测量详情</string>
+
+    <string name="spo2h_history_title">血氧历史数据</string>
+
+    <!--测量体温-->
+    <string name="temperature_title">体温测量</string>
+    <string name="temperature_result_tip">体温测量结果</string>
+    <string name="temperature_result">测量值：</string>
+    <string name="temperature_tip">正常体温：36.0~37.5℃</string>
+
+    <!--体温测量详情-->
+    <string name="temperature_detail_title">体温测量详情</string>
+
+    <string name="temp_history_title">体温历史数据</string>
+
+    <!--帮助中心-->
+    <string name="health_help_title">帮助中心</string>
+
+    <!--#########***** 健康检查——结束 *****#########-->
+
+
+    <!--#########***** 家庭相册——开始 *****#########-->
+    <string name="album_title">家庭相册</string>
+    <string name="bit_picture_title">查看大图</string>
+    <!--#########***** 家庭相册——结束 *****#########-->
+
+
+    <!--#########***** 一键帮助——开始 *****#########-->
+    <string name="help_title">一键帮助</string>
+    <string name="help_phone">4000&#8211;263203</string>
+
+
+    <!--#########***** 一键帮助——结束 *****#########-->
+
+
+    <!--#########***** 定位追踪——开始 *****#########-->
+    <string name="location_main_title">定位追踪</string>
+    <string name="location_devices">定位设备</string>
+    <!--#########***** 定位追踪——结束 *****#########-->
+
+
+    <!--#########***** 生活服务——开始 *****#########-->
+    <string name="services_main_title">生活服务</string>
+    <string name="services_vedio">视频播放</string>
+    <!--娱乐天地、成长关怀、呼叫中心——开始 zhukui-->
+    <string name="services_entertain">娱乐天地</string>
+    <string name="services_growup">成长关怀</string>
+    <string name="entertain_title">娱乐天地标题</string>
+    <string name="play_time">播放时长:120min</string>
+    <string name="file_size">文件大小:6M</string>
+    <string name="file_style">文件格式:.mp4</string>
+    <string name="call_center_phone">18994*****789</string>
+    <string name="call_center_name">呼叫中心</string>
+    <!--娱乐天地、成长关怀、呼叫中心——结束 zhukui-->
+    <!-- 网络电台 -->
+    <string name="internet_radio_title">网络电台</string>
+    <string name="category_title">电台类别选择</string>
+    <!--本地FM-->
+    <string name="fm_title">本地FM</string>
+    <!--#########***** 生活服务——结束 *****#########-->
+
+
+    <!--#########***** 本机设置——开始 *****#########-->
+    <string name="settings_main_title">本机设置</string>
+    <!--关于我们-->
+    <string name="about_us_introduce">
+        \t\t深圳吉祥星科技股份有限公司成立于1999年，是一家集产品设计 、研发、生产、销售于一体的计算机外围设备国家高新技术企业 ，公司拥有一支高素质的专业研发团队 ， 全身心致力于自主研发与创新，引进了国际市场核心先进技术和先进研发设备，研发成效硕果累累， 至今获得百余项专利著作权。企业核心员工1100余人，13000平米的现代化标准工业厂房的现代型企业坐落在深圳龙华大浪。2016年公司正式更名为深圳吉祥星科技股份有限公司。致力成为全球优秀的智慧生活整体解决方案服务商。
+        \n\t\t主要经营产品有：智能平板电脑、智能手机、智能家居、智能穿戴、智能装备和移动健康设备。 第7895780号“爱立顺AOSON”商标2011年成功注册，在国内享有较高的声誉并巩固了一定的国内市场占有率。 公司主营产品销量在同行业不仅名列前茅，覆盖亚洲、欧洲、北美、非洲三十多个主要国家和地区市场，具有良好的品牌商业信誉。
+        \n\t\t公司荟萃了一大批具有深厚专业理论和丰富实践经验的专注于数码电子信息产品方面的专家，与中国科技大学、广东工业大学等单位建立了长期的合作关系。公司凭籍高素质人才队伍，强大的技术研发能力，先进的生产、检测设备，优良的产品质量，完善的售后服务。相续通过ISO9002、ISO14001、ISO13485、ROHS、TS16949、CE/FCC等国际认证。
+        \n\t\t基于在国内和国际产业市场上的优异表现，公司得到了国家和广东省、深圳市各级政府部门的大力支持。
+        \n2008年5月公司被深圳市科技和信息局评为<b>“深圳市高新技术企业”</b>；
+        \n2008年8月公司被深圳市科技和信息局认定为<b>“软件企业”</b>；
+        \n2009年12月公司被国家科技部认定为<b>“国家高新技术企业”</b>；
+        \n2010年7月被深圳市宝安区人民政府认定为<b>“宝安区总部企业”</b>；
+        \n2013年6月被深圳市龙华新区评为<b>“2012年龙华新区民营企业50强”</b>；
+        \n2013年6月被深圳市龙华新区评为<b>“龙华新区高新技术与战略性新兴产业50强”</b>；
+        \n2013年11月获得<b>“深圳企业新记录”</b>；
+        \n2014年1月获得<b>“深圳知名品牌”</b>称号；
+        \n2011-2015连续5年获得<b>“广东省诚信示范企业”</b>；
+        \n2015年10月深圳市龙华新区评为<b>“2014龙华新区自主创新100强”</b>；
+        \n2015年10月深圳市龙华新区评为<b>“2014龙华新区工业100强”</b>。
+        \n\t\t公司秉承“对自己，以身作则，全力以赴；对工作，主动担当，高效执行；对同事，尊重包容，感恩奉献；对客户，真诚服务，合作共赢。”的核心价值观，聚焦客户需求与挑战，提供优质、时尚、便捷的互联网电子产品与服务，用创新科技引领未来智能生活。
+    </string>
+    <string name="help_introduce_title">\t\t常见问题及解决办法</string>
+    <string name="help_introduce">
+
+        \t\t在您使用我们公司的健康检查仪时，如果机器在使用过程中出现故障，可按以下方法作相应检查，若故障仍未排除，请与当地经
+        \n\t\t销商或与本公司联系，我们将及时给您解决，使您满意。用户请勿擅自打开机箱。
+        \n\t\t1、屏幕无显示
+        \n\t\t\t\t请先使用标配的电源适配器，对检查仪进行充电，注意观察指示灯工作状态，待充满电后再长按电源键3S重新开机。
+        \n\t\t2、系统无法开机
+        \n\t\t\t\t长按电源键10S以上重新启动。
+        \n\t\t3、ECG心电图无波形
+        \n\t\t\t\t1> 检查电缆插头是否插好，如不出现心电波形，请检查电缆是否有断线。
+        \n\t\t\t\t2> 检查被测人肢体部位皮肤是否干燥（一般检查仪屏幕会有LA\RA脱落提示），可用导电液或者纯净水涂抹肢体夹导电极，以及
+        \n\t\t\t\t\t 被测人肢体部位皮肤。注意，不可以使用无水酒精，因为无水酒精会增大接触电阻。
+        \n\t\t4、ECG心电图信号干扰大或基线太粗
+        \n\t\t\t\t1> 检查电极安放是否正常，电极是否脏污。
+        \n\t\t\t\t2> 注意被测量者是否刚运动过，待休息平复心情后重新测试。
+        \n\t\t\t\t3> 让被测试者平躺，并放松心情。
+        \n\t\t\t\t4> 被测试者本人不可自己操作设备点击“心电采集”按钮，必须由其他人员协助点击方可保障心电波形的稳定。
+        \n\t\t5、血压无测量结果
+        \n\t\t\t\t1> 检查血压袖带是否按说明书要求绑扎在胳膊合适的位置，袖带是否漏气，气管插头是否与面板上NIBP插座连接紧密。
+        \n\t\t\t\t2> 检查血压袖带是否绑扎过松。气管是否缠绕或者被物体压住。
+        \n\t\t\t\t3> 连续操作是否过于频繁，有否间隔两分钟以上。
+        \n\t\t6、血糖无测量结果
+        \n\t\t\t\t1> 检查试纸是否脏污失效。
+        \n\t\t\t\t2> 检查试纸是否插入到位，同时观察屏幕上的状态提示是否正确。
+        \n\t\t\t\t3> 操作步骤是否正确，必须先插好试纸，再采血测试。
+        \n\t\t\t\t4> 检查血液是否对正试纸吸收窗口，并被试纸完全吸入并布满窗口。
+        \n\t\t7、血氧无测量结果
+        \n\t\t\t\t1> 检查血氧探头内是否有发出红光，如没有红光，请检查探头导联线跟设备是否接触良好，或者有否破损、断裂等情况。
+        \n\t\t\t\t2> 检查探头内接触面是否有异物或者污渍覆盖。
+        \n\t\t\t\t3> 检查被测手指是否脏污，尤其注意部分指甲油会影响正常测量，观察屏幕是否有“请将手指放入血氧探头”的提示。
+        \n\t\t8、体温测量屏幕无数据
+        \n\t\t\t\t1> 检查单独体温计能否正常测量体温，如单独测量正常，请检查检查仪的蓝牙是否打开，跟体温计是否配对连接成功（注意观察
+        \n\t\t\t\t\t 屏幕相关提示信息）
+        \n\t\t\t\t2> 如果体温计单独测量无结果，请先确认体温计本身是否因电池原因无法开机？检查操作方法是否正确，是否按照语音提示一步
+        \n\t\t\t\t\t 一步操作的。
+        \n\t\t9、体温测量出现90多度的现象
+        \n\t\t\t\t那是（F）即华氏度。请按照以下方法切换到摄氏度:
+        \n\t\t\t\t1> 先把体温计关机，然后长按后面测量按钮不放，等到显示屏出现“F”图标时，再松开；
+        \n\t\t\t\t2> 接着短按测量按钮，切换到显示屏出现“C”图标时，再关机；
+        \n\t\t\t\t3> 重新开机即可成功切换到（C）摄氏度。
+        \n\t\t10、体温测量结果温度会过低
+        \n\t\t\t\t1> 请先检查您的耳道是否清洁？因为耳垢会阻碍红外线测量的准确性；另外探头镜片是耳温枪最敏感的零件，请使用干净湿布或
+        \n\t\t\t\t\t 温和清洁剂擦拭清洁。
+        \n\t\t\t\t2> 当环境温度低于16℃时，测温结果会显示LO，建议先把体温计保护盖打开，然后静放在常温室内30分钟左右后，再使用测温。
+        \n\t\t\t\t如出现以上故障时，按上述方法不能排除的话，请与厂家联系。
+        \n\t\t11、体温检测功能，设备找不到体温计
+        \n\t\t\t\t请检查体温计电池电压是否过低，更换新电池后重新测试。
+        \n\t\t12、体温检测功能，设备找不到体温计
+        \n\t\t\t\t请先检查是否联网，如果有联网，有时会因为网络不好或者服务器问题而造成定位失败，与机器本身无关，可以隔段时间，待网
+        \n\t\t\t\t络正常后再测试。如果确认网络与连接均正常无误，仍不断弹出提示，可按两次返回键，重启软件测试。
+        \n\t\t13、打开生活服务/网络电台，网络类别获取失败
+        \n\t\t\t\t先检查是否正常联网，联网后如果依然无法获取网络类别，则是由于服务器暂时关闭维护等原因，与机器本身无关，建议过段时
+        \n\t\t\t\t间再使用该功能。
+        \n\t\t14、家庭相册存入照片时系统提示内存空间不够
+        \n\t\t\t\t设备自带内存容量耗尽，请插入TF卡后继续操作使用。
+        \n\t\t15、远程咨询里提的的问题，没有收到回复
+        \n\t\t\t\t由于我们的后台专家都是各大医学单位的专家教授，正常上班时间段内一般都很忙，需要在空闲时间段才能给与回复，请换个时
+        \n\t\t\t\t间再次查询。一般问题均会在24小时内回复解答的。
+        \n\t\t16、连续快速点击某一个图标的时候容易出现程序卡死现象
+        \n\t\t\t\t快速连续多次点击属于违规操作！正常操作时需要先点击一下图标，待进入相应界面后再点击下一步的操作。如果出现该现象时
+        \n\t\t\t\t请等待几分钟，待程序自行恢复正常。
+        \n\n\n
+
+
+
+
+
+    </string>
+
+    <!--检测更新-->
+    <string name="upgrade_check">检测更新</string>
+
+    <!--#########***** 本机设置——结束 *****#########-->
+
+    <string name="contents_contact">联系人信息</string>
+    <string name="contents_email">E-mail 地址</string>
+    <string name="contents_location">经纬度</string>
+    <string name="contents_phone">电话号码</string>
+    <string name="contents_sms">短信号码</string>
+    <string name="contents_text">纯文本</string>
+
+    <!-- add by lhk -->
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="dialog_message">是否要删除本闹钟？</string>
+    <string name="dia_drug_message">是否要删除本药品？</string>
+    <string name="dia_confirm">确定</string>
+    <string name="dia_cancel">取消</string>
+
+    <string name="dia_alarm_delay">延迟10分钟</string>
+    <string name="dia_alarm_close">关闭</string>
+    <string name="examination_history">测量记录</string>
+    <string name="glu_examination_history">血糖测量记录</string>
+    <string name="BpSp_examination_history">血压测量记录</string>
+    <string name="Ecg_examination_history">心电测量记录</string>
+    <string name="Spo2h_examination_history">血氧测量记录</string>
+    <string name="Temp_examination_history">体温测量记录</string>
+    <string name="DEVICE_QR_CODE">本机二维码</string>
+    <string name="ANDROID_APP_QR_CODE">安卓手机APP二维码</string>
+    <string name="IPHONE_APP_QR_CODE">苹果手机APP二维码</string>
+    <!-- end add by lhk  -->
+    <string name="result_printer">打印</string>
+    <string name="identify_card">身份证识别</string>
+    <string name="latest_version">已经是最新版本</string>
+    <string name="current_version">当前版本：</string>
+    <string name="new_version">最新版本：</string>
+
+    <string name="conclusion_a">\t\t您的体质是平和质。很棒哦，请继续保持！</string>
+    <string name="conclusion_b1">\t\t您的体质基本是平和质，有气虚质、湿热质倾向。总的来说，您的身体很棒哦，请继续保持！</string>
+    <string name="conclusion_b2">\t\t您的体质基本是平和质，有气虚质、湿热质倾向。总的来说，您的身体很棒哦，请继续保持！</string>
+    <string name="conclusion_c1">\t\t您的体质是湿热质、有阳虚质倾向的混合体质，比较复杂，您还是抽空时找医生帮您调理一下吧。</string>
+    <string name="conclusion_c2">\t\t您的体质是湿热质、有阳虚质倾向的混合体质，比较复杂，您还是抽空时找医生帮您调理一下吧。</string>
+    <string name="conclusion_d1">\t\t您的体质是气虚质、阳虚质、湿热质的混合体质，比较复杂，您还是抽空时找医生帮您调理一下吧。</string>
+    <string name="conclusion_d2">\t\t您的体质是气虚质、阳虚质混合体质，比较复杂，您还是抽空时找医生帮您调理一下吧。</string>
+    <string name="conclusion_e1">\t\t您的体质倾向是阳虚质，请尝试一下我们的食疗养生方帮您纠偏哦。</string>
+    <string name="conclusion_e2">\t\t您的体质倾向是气虚质、阳虚质混合体质，比较复杂，您还是抽空时找医生帮您调理一下吧。</string>
+    <string name="conclusion_g">\t\t奇怪，您的体质特征不明显，您还是抽空请医生帮您看一下吧。</string>
+
+    <string name="hints_a">
+        &lt;br>\t\t&lt;b>平和体质&lt;/b>是正常体质，这类人体形匀称健壮，面色、肤色润泽，头发稠密有光泽，目光有神，唇色红润，不易疲劳，精力充沛，睡眠、食欲好，大小便正常，性格随和开朗，患病少。
+        &lt;br>&lt;b>养生要点：&lt;/b>重在维护。
+        &lt;br>&lt;b>对策：&lt;/b>平时只要注意饮食有节、劳逸结合、坚持锻炼即可。
+    </string>
+    <string name="hints_b">
+        &lt;br>\t\t&lt;b>气虚体质&lt;/b>的人经常感觉疲乏、气短、讲话的声音低弱、容易出汗、舌边有齿痕。患病倾向有容易感冒，生病后抗病能力弱且难以痊愈，还易患内脏下垂比如胃下垂等。
+        &lt;br>&lt;b>养生要点：&lt;/b>益气健脾，注意胃下垂等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>平时多食用益气健脾的食物，如黄豆、白扁豆、鸡肉、香菇、大枣、桂圆、蜂蜜等。少食具有耗气作用的食物，如空心菜、生萝卜等。起居宜有规律，夏季午间适当休息，保持充足睡眠。注意保暖，避免劳动或激烈运动时出汗受风。不要过于劳作，以免损伤正气。运动宜柔缓，不宜剧烈运动。
+    </string>
+    <string name="hints_c">
+        &lt;br>\t\t&lt;b>阳虚体质&lt;/b>的人，肌肉不健壮，时感手脚发凉，胃脘部、背部或腰膝部怕冷，衣服比别人穿得多，夏天不喜吹空调，喜欢安静，吃或喝凉的食物不舒服，容易大便稀溏，小便颜色清而量多。性格多沉闷、内向。患病倾向，易出现寒病，腹泻、阳痿等。
+        &lt;br>&lt;b>养生要点：&lt;/b>温阳补益气，防腹泻、阳痿等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>食宜温阳。可多食牛肉、羊肉、韭菜、生姜、葱头等温阳之品。少食梨、西瓜、荸荠等生冷寒凉食物，少饮绿茶。起居要保暖，特别是背部及下腹丹田部位，避免长时间待在空调房，防止出汗过多，在阳光充足的情况下适当进行户外活动。运动避风寒，冬天避免在大风、大寒、大雾、大雪及空气污染的环境中锻炼。
+    </string>
+    <string name="hints_d">
+        &lt;br>\t\t&lt;b>阴虚质&lt;/b>的人体形多瘦长，经常感到手、脚心发热，脸上冒火，面颊潮红或偏红，耐受不了夏天的暑热，常感到眼睛干涩，口干咽燥，总想喝水，皮肤干燥，性情急躁，外向好动，舌质偏红，苔少。患病倾向为易患咳嗽、干燥综合征、甲亢等。
+        &lt;br>&lt;b>养生要点：&lt;/b>滋阴，注意甲亢等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>注意食宜滋阴，多吃瘦猪肉、鸭肉、绿豆、冬瓜等甘凉滋润之品，少食羊肉、韭菜、辣椒、葵瓜子等性温燥烈之品。起居忌熬夜，避免在高温酷暑下工作。运动勿太过，锻炼时要控制出汗量，及时补充水分，不宜洗桑拿。
+    </string>
+    <string name="hints_e">
+        &lt;br>\t\t&lt;b>痰湿体质&lt;/b>的人，体形肥胖，腹部肥满而松软。容易出汗，经常感觉导肢体酸困沉重、不轻松。经常感觉脸上一层油，嘴里常有黏黏的或甜腻的感觉，嗓子老有痰，舌苔较厚，性格比较温和，舌苔厚腻。患病倾向，易患消渴、中风、胸痹等。
+        &lt;br>&lt;b>养生要点：&lt;/b>化痰祛湿，防中风、胸痹等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>食宜清淡。饮食应以清淡为主，少食肥肉及甜、黏、油腻的食物，如炸糕、驴打滚。可多食海带、冬瓜等。起居忌潮湿，居住环境宜干燥而不宜潮湿，平时多进行户外活动。衣着应透气散湿，经常晒太阳或进行日光浴。在湿冷的气候条件下，应减少户外活动，避免受寒淋雨，不要过于安逸。运动宜渐进，因形体肥胖，易于困倦，故应根据自己的具体情况循序渐进，长期坚持运动锻炼。
+    </string>
+    <string name="hints_f">
+        &lt;br>\t\t&lt;b>湿热体质&lt;/b>的人，面部和鼻尖总是油光发亮，脸上容易生粉刺，皮肤容易瘙痒。常感到口苦、口臭或嘴里有异味，大便粘滞不爽，小便有发热感，尿色发黄，女性常带下色黄，男性阴囊总是潮湿多汗。患病倾向是疮疖、黄疸等病。
+        &lt;br>&lt;b>养生要点：&lt;/b>注意清热利湿。
+        &lt;br>&lt;b>对策：&lt;/b>食忌辛温滋腻的食物。饮食以清淡为主，可多食赤小豆、绿豆、芹菜、黄瓜、藕等甘寒、甘平的食物。少食羊肉、韭菜、生姜、辣椒、胡椒、花椒等甘温滋腻及火锅、烹炸、烧烤等辛温助热的食物。起居避暑湿，居住环境宜干燥，通风。不要熬夜、过于劳累。盛夏暑湿较重，减少户外活动时间。运动宜增强，适合做大强度、大运动量的锻炼。
+    </string>
+    <string name="hints_g">
+        &lt;br>\t\t&lt;b>血瘀体质&lt;/b>的人，面色偏暗，嘴唇颜色偏暗，舌下的静脉瘀紫。皮肤比较粗糙，有时在不知不觉中会出现皮肤淤青。眼睛里的红血丝很多，刷牙是牙龈容易出血。容易烦躁、健忘、性情急躁。
+        &lt;br>&lt;b>养生要点：&lt;/b>行气活血，防肿瘤、中风、胸痹等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>宜食行气活血的食物，多食山楂、醋、玫瑰花、金橘等具有活血、散结、行气、疏肝解郁作用的食物，少食肥肉等滋腻之品。起居不要过于安逸，以免气机郁滞而致血行不畅，保持足够的睡眠，可早睡早起多锻炼。
+    </string>
+    <string name="hints_h">
+        &lt;br>\t\t&lt;b>气郁体质&lt;/b>的人，体形偏瘦，常感闷闷不乐、情绪低沉，容易紧张、焦虑不安，多愁善感，感情脆弱，容易感到害怕或容易受到惊吓，常感到乳房及两胁部胀痛，常有胸闷的感觉，经常无缘无故地叹气，咽喉部经常有堵塞感或异物感，容易失眠。神情抑郁、忧虑脆弱。患病倾向有失眠、抑郁症、神经官能症、乳腺增生等。
+        &lt;br>&lt;b>养生要点：&lt;/b>防抑郁症、神经官能症、乳腺增生等疾病。
+        &lt;br>&lt;b>对策：&lt;/b>食宜宽胸理气，多食黄花菜、海带、山楂、玫瑰花等具有行气、解郁、消食、醒神食物。起居宜动不宜静，气郁体质的人不要总待在家里，应尽量增加户外活动，居住环境应安静，防止嘈杂的环境影响心情。睡前避免饮茶、咖啡和可可等具有提神醒脑作用的饮料。宜参加群体运动，多参加群众性的体育运动项目，如打球，跳舞，下棋等，以便更多地融入社会。
+    </string>
+    <string name="hints_i">
+        &lt;br>\t\t&lt;b>特禀体质&lt;/b>是一类特殊体质特殊的人群。有的即使不感冒也经常鼻塞、打喷嚏、流鼻涕，容易患哮喘。容易对药物、食物、气味、花粉、季节过敏，有的皮肤容易起荨麻疹，皮肤常因过敏出现紫红色瘀点，瘀斑，皮肤常一抓就红，并出现抓痕。
+        &lt;br>&lt;b>养生要点：&lt;/b>防哮喘、皮肤疾病。
+        &lt;br>&lt;b>对策：&lt;/b>平时只要注意饮食有节、劳逸结合、坚持锻炼即可。
+    </string>
+</resources>

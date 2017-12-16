@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/com_select_bg"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/text_label"
+        style="@style/TextView.Wrap_Wrap"
+        android:text="@string/com_family_members"
+        android:textColor="@color/text_color_33"
+        android:textSize="@dimen/textSize_18" />
+
+    <Button
+        android:id="@+id/btn_select"
+        style="@style/Button.Match_Wrap"
+        android:layout_marginLeft="@dimen/layout_margin_16"
+        android:layout_marginStart="@dimen/layout_margin_16"
+        android:background="@null"
+        android:drawableEnd="@drawable/com_select_drop_down"
+        android:drawableRight="@drawable/com_select_drop_down"
+        android:gravity="center_vertical|end"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color_33"
+        android:textSize="@dimen/textSize_18" />
+
+</LinearLayout>

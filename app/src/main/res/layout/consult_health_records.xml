@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_match_match"
+    android:background="@color/app_bg"
+    android:fadeScrollbars="true"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        style="@style/style_match_wrap"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingEnd="@dimen/padding_12"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_12"
+        android:paddingStart="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16">
+
+        <include layout="@layout/com_select_member" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginTop="@dimen/layout_margin_12"
+            android:background="@drawable/com_content_bg"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/com_title_tip"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:layout_marginStart="@dimen/layout_margin_12"
+                    android:text="@string/records_basic_info" />
+
+                <Button
+                    android:id="@+id/btn_printer"
+                    style="@style/Button.Wrap_Wrap"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="@dimen/layout_margin_12"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/btn_bg_blue2"
+                    android:text="@string/result_printer"
+                    android:textColor="@android:color/white" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/layout_margin_12"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:text="@string/records_username"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="@dimen/layout_text_width_90"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_25"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_70"
+                    android:text="@string/records_gender"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="@dimen/layout_text_width_52"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_20"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_70"
+                    android:text="@string/records_age"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="@dimen/layout_text_width_52"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_32"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_70"
+                    android:text="@string/records_height"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_32"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="@dimen/layout_margin_8"
+                style="@style/Line_Horizontal"
+                android:background="@color/line_ea" />
+            <LinearLayout
+                android:layout_marginTop="@dimen/layout_margin_8"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:text="@string/records_weight"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:layout_width="@dimen/layout_text_width_90"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_25"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+                <TextView
+                    android:layout_width="@dimen/layout_text_width_70"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_70"
+                    android:text="@string/records_phone"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="@dimen/layout_text_width_105"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_16"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_40"
+                    android:text="@string/records_area"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <TextView
+                    android:id="@+id/tv_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin_20"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_match_wrap"
+            android:layout_marginTop="@dimen/layout_margin_16"
+            android:background="@drawable/com_content_bg"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/com_title_tip"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginStart="@dimen/layout_margin_12"
+                android:text="@string/records_health_info" />
+
+
+
+            <LinearLayout
+                style="@style/style_match_wrap"
+                android:layout_marginTop="@dimen/layout_margin_8"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_5"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/records_blood_type"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                    <TextView
+                        android:id="@+id/tv_blood_type"
+                        android:layout_width="@dimen/layout_text_width_60"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text="@string/records_allergy"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                    <TextView
+                        android:id="@+id/tv_allergy"
+                        android:layout_width="@dimen/layout_text_width_60"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text="@string/records_past_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                    <TextView
+                        android:id="@+id/tv_past_history"
+                        android:layout_width="@dimen/layout_text_width_86"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_32"
+                        android:text="@string/records_hereditary"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                    <TextView
+                        android:id="@+id/tv_hereditary"
+                        android:layout_width="@dimen/layout_text_width_52"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_22"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View style="@style/Line_Horizontal"
+                android:layout_marginTop="@dimen/layout_margin_12"/>
+
+            <LinearLayout
+                style="@style/style_match_wrap"
+                android:layout_marginBottom="@dimen/layout_margin_16"
+                android:layout_marginTop="@dimen/layout_margin_12"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Table_LinearLayout_Left.TextView"
+                    android:text="@string/records_problem"
+                    android:textColor="@color/text_color_33"
+                    android:textSize="@dimen/textSize_16" />
+
+                <EditText
+                    android:id="@+id/et_problem"
+                    style="@style/Table_LinearLayout_Right.EditText"
+                    android:layout_marginLeft="@dimen/layout_margin_20"
+                    android:layout_marginRight="@dimen/layout_margin_12"
+                    android:layout_marginTop="@dimen/layout_margin_8"
+                    android:gravity="top|start"
+                    android:minHeight="80dp"
+                    android:singleLine="false"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/text_color_33"
+                    android:textColorHint="@color/text_color_cc"
+                    android:textSize="@dimen/textSize_16"
+                    android:editable="false"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/style_match_wrap"
+                android:layout_marginTop="@dimen/layout_margin_16"
+                android:background="@drawable/com_content_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/com_title_tip"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:layout_marginStart="@dimen/layout_margin_12"
+                    android:text="@string/examination_history" />
+                <!-- 血糖 -->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_12"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/glu_examination_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:id="@+id/tv_glu_examin_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_16"
+                        android:textColor="@color/text_color_33"
+                        android:text=""/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip">
+                        <ListView
+                            android:id="@+id/lv_glu_examin_his_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="@dimen/layout_margin_22"
+                            android:clickable="true"
+                            android:dividerHeight="1dip"
+                            android:divider="#EDEDED"
+                            >
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 血压 -->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_12"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/BpSp_examination_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:id="@+id/tv_BpSp_examin_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_16"
+                        android:textColor="@color/text_color_33"
+                        android:text="2017"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip">
+                        <ListView
+                            android:id="@+id/lv_BpSp_examin_his_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="@dimen/layout_margin_22"
+                            android:clickable="true"
+                            android:dividerHeight="1dip"
+                            android:divider="#EDEDED"
+                            >
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 心电 -->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_12"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/Ecg_examination_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:id="@+id/tv_Ecg_examin_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_16"
+                        android:textColor="@color/text_color_33"
+                        android:text="2017"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip">
+                        <ListView
+                            android:id="@+id/lv_Ecg_examin_his_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="@dimen/layout_margin_22"
+                            android:clickable="true"
+                            android:dividerHeight="1dip"
+                            android:divider="#EDEDED"
+                            >
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 血氧 -->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_12"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/Spo2h_examination_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:id="@+id/tv_Spo2h_examin_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_16"
+                        android:textColor="@color/text_color_33"
+                        android:text="2017"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip">
+                        <ListView
+                            android:id="@+id/lv_Spo2h_examin_his_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="@dimen/layout_margin_22"
+                            android:clickable="true"
+                            android:dividerHeight="1dip"
+                            android:divider="#EDEDED"
+                            >
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 血氧 -->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layout_margin_12"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:text="@string/Temp_examination_history"
+                        android:textColor="@color/text_color_33"
+                        android:textSize="@dimen/textSize_16" />
+                    <TextView
+                        android:id="@+id/tv_Temp_examin_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:textColor="@color/text_color_33"
+                        android:text="2017"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip">
+                        <ListView
+                            android:id="@+id/lv_Temp_examin_his_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="@dimen/layout_margin_22"
+                            android:clickable="true"
+                            android:dividerHeight="1dip"
+                            android:divider="#EDEDED"
+                            >
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

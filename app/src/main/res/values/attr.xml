@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--直尺类定义属性-->
+    <declare-styleable name="RulerView">
+        <attr name="indicateColor" format="color|reference" />
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="text_color" format="color|reference" />
+        <attr name="text_size" format="dimension|reference" />
+        <!--是否真正直尺-->
+        <attr name="isTureRuler" format="boolean" />
+        <attr name="begin" format="integer|reference" />
+        <attr name="end" format="integer|reference" />
+        <attr name="indicateWidth" format="dimension|reference" />
+        <attr name="indicatePadding" format="dimension|reference" />
+    </declare-styleable>
+    <!--自定义水平滚动尺-->
+    <declare-styleable name="RulerHorizontalView">
+        <!--大号刻度线颜色-->
+        <attr name="lineColorMax" format="color" />
+        <!--中号刻度线颜色-->
+        <attr name="lineColorMid" format="color" />
+        <!--小号刻度线颜色-->
+        <attr name="lineColorMin" format="color" />
+        <!--大号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MaxBarSize" format="dimension" />
+        <!--中号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MidBarSize" format="dimension" />
+        <!--大号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MinBarSize" format="dimension" />
+        <!--是否显示刻度值-->
+        <attr name="showScaleValue" format="boolean" />
+        <!--是否渐显显示刻度尺-->
+        <attr name="showGradient" format="boolean" />
+        <!--刻度宽度,所有的都一样大小-->
+        <attr name="scaleWidth" format="dimension" />
+        <!--刻度左右间距-->
+        <attr name="line_divider" format="dimension" />
+        <attr name="text_Size" format="integer" />
+        <attr name="text_Color" format="color" />
+        <attr name="def_value" format="integer" />
+        <attr name="max_value" format="integer" />
+        <attr name="min_value" format="integer" />
+        <attr name="mask_bg" format="reference" />
+        <!--刻度值渐现-->
+        <attr name="scaleValueGradient" format="boolean" />
+        <attr name="mode">
+            <flag name="SCALE" value="0" />
+            <flag name="HALF" value="1" />
+        </attr>
+        <attr name="dataMode">
+            <flag name="AUTO" value="0" />
+            <flag name="DATA" value="1" />
+        </attr>
+        <attr name="dataSource" format="reference" />
+        <attr name="alignMode">
+            <flag name="UP" value="0" />
+            <flag name="DOWN" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 流式布局 -->
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RadarView">
+        <attr name="radar_layer" format="integer"/>
+        <attr name="rotation_enable" format="boolean" />
+        <attr name="web_mode" format="enum">
+            <enum name="polygon" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <attr name="radar_max_value" format="float" />
+        <attr name="radar_line_color" format="color" />
+        <attr name="radar_line_enable" format="boolean" />
+        <attr name="radar_line_width" format="dimension" />
+        <attr name="vertex_text_color" format="color" />
+        <attr name="vertex_text_size" format="dimension" />
+        <attr name="vertex_text_offset" format="dimension" />
+    </declare-styleable>
+</resources>

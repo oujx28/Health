@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin_3"
+    android:layout_marginBottom="@dimen/layout_margin_3">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_33"
+        android:textSize="@dimen/textSize_16"
+        tools:text=" 类目" />
+    <RadioGroup
+        android:id="@+id/rg_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_16"
+        android:layout_marginTop="@dimen/layout_margin_3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_choice_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_15"
+            android:text="没有(根本不)"/>
+        <RadioButton
+            android:id="@+id/rb_choice_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_20"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_15"
+            android:text="很少(有一点)"/>
+        <RadioButton
+            android:id="@+id/rb_choice_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_20"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_15"
+            android:text="有时(有些)"/>
+        <RadioButton
+            android:id="@+id/rb_choice_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_20"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_15"
+            android:text="经常(相当)"/>
+        <RadioButton
+            android:id="@+id/rb_choice_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_20"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_15"
+            android:text="总是(非常)"/>
+    </RadioGroup>
+</LinearLayout>

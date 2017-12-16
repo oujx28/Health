@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">#2479c8</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <!--背景色-->
+    <color name="app_bg">#EEEEEE</color>
+
+    <color name="text_color_33">#333333</color>
+    <color name="text_color_66">#666666</color>
+    <color name="text_color_99">#999999</color>
+    <color name="text_color_cc">#CCCCCC</color>
+
+    <!--分割线颜色-->
+    <color name="line_ea">#EAEAEA</color>
+    <color name="line_grey">#EAEAEA</color>
+
+    <!--蓝色-->
+    <color name="blue">#038AD5</color>
+
+    <color name="white">#ffffffff</color>
+
+    <!--红色-->
+    <color name="red_light">#FF9966</color>
+    <color name="red_dark">#ff3300</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="status_yellow">#F7C826</color>
+    <color name="status_blue">#038AD5</color>
+    <color name="bg_dialog">#FAFAFA</color>
+
+    <color name="category_blue">#FFC6E4F1</color>
+
+    <!--默认字体颜色-->
+    <color name="def_text_color_black">#333333</color>
+    <color name="def_text_color_grey">#999999</color>
+
+    <color name="transparent">#00000000</color>
+    
+    <color name="radar_layer_1">#FFFF552B</color>
+    <color name="radar_layer_2">#FFFC7857</color>
+    <color name="radar_layer_3">#FFFC9E87</color>
+    <color name="radar_layer_4">#FFFCCCC1</color>
+
+</resources>

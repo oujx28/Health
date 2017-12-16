@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_match_match"
+    android:background="@color/app_bg"
+    android:paddingBottom="@dimen/padding_16"
+    android:paddingEnd="@dimen/padding_12"
+    android:paddingLeft="@dimen/padding_8"
+    android:paddingRight="@dimen/padding_12"
+    android:paddingStart="@dimen/padding_8"
+    android:paddingTop="@dimen/padding_16">
+
+    <RelativeLayout
+        style="@style/style_match_match"
+        android:background="@drawable/com_content_bg">
+
+        <TextView
+            android:id="@+id/tv_title_tip"
+            style="@style/com_title_tip"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:layout_marginStart="@dimen/layout_margin_12"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:textSize="@dimen/textSize_18"
+            tools:text="标题" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/Button.Wrap_Wrap"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/layout_margin_12"
+            android:layout_marginRight="@dimen/layout_margin_12"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_bg_blue2"
+            android:text="@string/com_add"
+            android:textColor="@android:color/white" />
+
+        <ListView
+            android:id="@+id/pullToRefreshSwipeMenuListView"
+            style="@style/PullToRefreshListView"
+            android:layout_below="@id/btn_add"
+            android:layout_marginTop="@dimen/layout_margin_4"
+            android:divider="@color/line_ea"
+            android:dividerHeight="1px" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

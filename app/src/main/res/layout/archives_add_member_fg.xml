@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg">
+
+    <RelativeLayout
+        style="@style/style_match_wrap"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingEnd="@dimen/padding_12"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_12"
+        android:paddingStart="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16">
+
+        <RelativeLayout
+            android:id="@+id/layout_conent"
+            style="@style/style_match_wrap"
+            android:background="@drawable/com_content_bg">
+
+            <TextView
+                android:id="@+id/tv_title_tip"
+                style="@style/com_title_tip"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginStart="@dimen/layout_margin_12"
+                tools:text="标题" />
+
+            <Button
+                android:id="@+id/btn_identify_card"
+                style="@style/Button.Wrap_Wrap"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/layout_margin_12"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_bg_blue2"
+                android:text="@string/identify_card"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title_tip"
+                android:layout_marginTop="@dimen/layout_margin_16">
+
+                <TextView
+                    style="@style/com_title_tip"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:layout_marginStart="@dimen/layout_margin_12"
+                    android:text="@string/records_basic_info" />
+                <View
+                    style="@style/Line_Horizontal"
+                    android:background="@color/line_ea" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        style="@style/style_match_wrap"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_height="@dimen/title_bar_height"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/archives_user_name"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_username"
+                                style="@style/consult_records_button"
+                                tools:text="点墨书生" />
+                            <View
+                                style="@style/Line_Vertical"
+                                android:background="@color/line_ea" />
+                        </LinearLayout>
+
+                        <View
+                            style="@style/Line_Horizontal"
+                            android:background="@color/line_ea" />
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_height="@dimen/title_bar_height">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_gender"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <RadioGroup
+                                android:id="@+id/radioGroup"
+                                style="@style/style_0_wrap"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical|end"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/radioMale"
+                                    style="@style/RadioButton.Wrap_Wrap"
+                                    android:checked="true"
+                                    android:drawableLeft="@drawable/com_rbtn_bg"
+                                    android:drawableStart="@drawable/com_rbtn_bg"
+                                    android:text="@string/records_gender_m"
+                                    android:textColor="@color/text_color_33"
+                                    android:textSize="@dimen/textSize_16" />
+
+                                <RadioButton
+                                    android:id="@+id/radioFemale"
+                                    style="@style/RadioButton.Wrap_Wrap"
+                                    android:layout_marginLeft="@dimen/layout_margin_12"
+                                    android:layout_marginRight="@dimen/layout_margin_12"
+                                    android:drawableLeft="@drawable/com_rbtn_bg"
+                                    android:drawableStart="@drawable/com_rbtn_bg"
+                                    android:text="@string/records_gender_w"
+                                    android:textColor="@color/text_color_33"
+                                    android:textSize="@dimen/textSize_16" />
+                            </RadioGroup>
+                            <View
+                                style="@style/Line_Vertical"
+                                android:background="@color/line_ea" />
+
+                        </LinearLayout>
+
+                        <View
+                            style="@style/Line_Horizontal"
+                            android:background="@color/line_ea" />
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_height="@dimen/title_bar_height">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_age"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_age"
+                                style="@style/consult_records_button"
+                                tools:text="26" />
+                            <View
+                                style="@style/Line_Vertical"
+                                android:background="@color/line_ea" />
+                        </LinearLayout>
+
+                        <View
+                            style="@style/Line_Horizontal"
+                            android:background="@color/line_ea" />
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_height="@dimen/title_bar_height">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_height"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_height"
+                                style="@style/consult_records_button"
+                                tools:text="172" />
+                            <View
+                                style="@style/Line_Vertical"
+                                android:background="@color/line_ea" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <View
+                        style="@style/Line_Vertical"
+                        android:background="@color/line_ea" />
+
+                    <LinearLayout
+                        style="@style/style_match_match"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_12">
+
+                        <ImageButton
+                            android:id="@+id/headImg"
+                            style="@style/ImageButton"
+                            android:layout_width="100dp"
+                            android:layout_height="95dp"
+                            android:contentDescription="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/com_img_cream" />
+
+                        <RelativeLayout
+                            android:id="@+id/layout_preview"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="@dimen/layout_margin_24"
+                            android:visibility="gone">
+
+                            <com.tonghz.app.widget.CircleImageView
+                                android:id="@+id/img_show"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/def_img" />
+
+                            <ImageButton
+                                android:id="@+id/btn_delete"
+                                style="@style/ImageButton"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:contentDescription="@null"
+                                android:src="@drawable/com_delete" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    style="@style/Line_Horizontal"
+                    android:background="@color/line_ea" />
+                <LinearLayout
+                    style="@style/style_match_wrap"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/title_bar_height">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_weight"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <Button
+                            android:id="@+id/btn_weight"
+                            style="@style/consult_records_button"
+                            tools:text="64" />
+                        <View
+                            style="@style/Line_Vertical"
+                            android:background="@color/line_ea" />
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/title_bar_height">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_area"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <Button
+                            android:id="@+id/btn_area"
+                            style="@style/consult_records_button"
+                            tools:text="南京" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <View
+                    style="@style/Line_Horizontal"
+                    android:background="@color/line_ea" />
+                <LinearLayout
+                    style="@style/style_match_wrap"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/title_bar_height">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_phone"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <Button
+                            android:id="@+id/btn_phone"
+                            style="@style/consult_records_button"
+                            tools:text="13651807768" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    style="@style/Line_Horizontal"
+                    android:background="@color/line_ea" />
+                <LinearLayout
+                    style="@style/style_match_wrap"
+                    android:layout_marginTop="@dimen/layout_margin_16"
+                    android:background="@drawable/com_content_bg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/com_title_tip"
+                        android:layout_marginLeft="@dimen/layout_margin_12"
+                        android:layout_marginStart="@dimen/layout_margin_12"
+                        android:text="@string/records_health_info" />
+
+                    <LinearLayout
+                        style="@style/style_match_wrap"
+                        android:layout_marginTop="@dimen/layout_margin_8"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_weight="1">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_blood_type"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_blood_type"
+                                style="@style/consult_records_button"
+                                tools:text="O型" />
+                        </LinearLayout>
+
+                        <View style="@style/consult_records_line_v" />
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_weight="1">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_allergy"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_allergy"
+                                style="@style/consult_records_button"
+                                tools:text="无" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/Line_Horizontal" />
+
+                    <LinearLayout
+                        style="@style/style_match_wrap"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_weight="1">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_past_history"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_past_history"
+                                style="@style/consult_records_button"
+                                tools:text="无" />
+                        </LinearLayout>
+
+                        <View style="@style/consult_records_line_v" />
+
+                        <LinearLayout
+                            style="@style/Table_LinearLayout"
+                            android:layout_weight="1">
+
+                            <TextView
+                                style="@style/Table_LinearLayout_Left.TextView"
+                                android:text="@string/records_hereditary"
+                                android:textColor="@color/text_color_66"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <Button
+                                android:id="@+id/btn_hereditary"
+                                style="@style/consult_records_button"
+                                tools:text="无" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/Line_Horizontal" />
+
+                    <LinearLayout
+                        style="@style/style_match_wrap"
+                        android:layout_marginBottom="@dimen/layout_margin_16"
+                        android:layout_marginTop="@dimen/layout_margin_16"
+                        android:baselineAligned="false"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_problem"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <EditText
+                            android:id="@+id/et_problem"
+                            style="@style/Table_LinearLayout_Right.EditText"
+                            android:layout_marginLeft="@dimen/layout_margin_12"
+                            android:layout_marginRight="@dimen/layout_margin_12"
+                            android:layout_marginTop="@dimen/layout_margin_8"
+                            android:gravity="top|start"
+                            android:hint="@string/records_problem_hint"
+                            android:minHeight="80dp"
+                            android:singleLine="false"
+                            android:inputType="textMultiLine"
+                            android:textColor="@color/text_color_33"
+                            android:textColorHint="@color/text_color_cc"
+                            android:textSize="@dimen/textSize_16" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/com_bottom_button"
+            android:layout_below="@id/layout_conent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/com_submit" />
+    </RelativeLayout>
+
+</ScrollView>

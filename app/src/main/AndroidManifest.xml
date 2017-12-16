@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luckystar.health">
+
+    <!--环信-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <!-- GCM required, remember replace "com.hyphenate.chatuidemo" to your own package -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--高德地图-->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+
+    <!--添加可以向外拨打电话的权限  -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--蓝牙权限-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <!--喜马拉雅权限-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!--腾讯Bugly-->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name="com.luckystar.health.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.luckystar.health.modules.main.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--#########***** 远程咨询——开始 *****#########-->
+        <activity
+            android:name=".modules.consult.ConsultMainActivity"
+            android:label="@string/consult_main_title"
+            android:screenOrientation="landscape" />
+
+        <!--#########***** 远程咨询——结束 *****#########-->
+
+        <!--#########***** 家庭看护——开始 *****#########-->
+        <activity
+            android:name=".modules.monitor.MonitorMainActivity"
+            android:label="@string/monitor_main_title"
+            android:screenOrientation="landscape" />
+
+        <!--#########***** 家庭看护——结束 *****#########-->
+
+        <!--#########***** 家庭档案——开始 *****#########-->
+        <!--家庭档案主页-->
+        <activity
+            android:name=".modules.archives.ArchivesMainActivity"
+            android:label="@string/archives_main_title"
+            android:screenOrientation="landscape" />
+
+        <!--#########***** 家庭档案——结束 *****#########-->
+
+        <!--#########***** 健康监护——开始 *****#########-->
+        <!--健康监护主页-->
+        <activity
+            android:name=".modules.health.HealthMainActivity"
+            android:label="@string/health_main_title"
+            android:screenOrientation="landscape" />
+
+        <!--#########***** 定位追踪——开始 *****#########-->
+        <activity
+            android:name=".modules.location.LocationMainActivity"
+            android:label="全球定位"
+            android:screenOrientation="landscape" />
+
+        <!--#########***** 定位追踪——结束 *****#########-->
+
+        <!--WebView-->
+        <activity
+            android:name=".modules.consult.WebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+
+        <!--生活服务主页-->
+        <activity
+            android:name=".modules.services.ServicesMainActivity"
+            android:label="@string/services_main_title"
+            android:screenOrientation="landscape" />
+
+        <!--高德地图-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="d467647e29a6bf3a35a339c5b0e0b617" />
+
+        <!--高德定位-->
+        <service android:name="com.amap.api.location.APSService" />
+    </application>
+
+</manifest>

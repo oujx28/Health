@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding_16"
+    android:paddingEnd="@dimen/padding_12"
+    android:paddingLeft="@dimen/padding_8"
+    android:paddingRight="@dimen/padding_12"
+    android:paddingStart="@dimen/padding_8"
+    android:paddingTop="@dimen/padding_16">
+
+    <include layout="@layout/com_select_member" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_16"
+        android:background="@drawable/com_content_bg">
+
+        <TextView
+            android:id="@+id/tv_title_tip"
+            style="@style/TextView.Wrap_Wrap"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:layout_marginStart="@dimen/layout_margin_12"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_18"
+            android:text="@string/headlth_assessment"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/Button.Wrap_Wrap"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/layout_margin_12"
+            android:layout_marginRight="@dimen/layout_margin_12"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btn_bg_blue2"
+            android:text="@string/com_submit"
+            android:textColor="@android:color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_submit"
+            android:divider="@color/line_ea"
+            android:dividerHeight="1px" />
+
+        <LinearLayout
+            android:id="@+id/layout_conclusion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/btn_submit">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <com.luckystar.health.component.radarview.RadarView
+                    android:id="@+id/radarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/btn_submit"
+                    app:vertex_text_color="@color/text_color_33"
+                    app:radar_max_value="80"
+                    app:radar_layer="4"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/layout_margin_5">
+                    <View
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:background="@color/radar_layer_1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_5"
+                        android:text="20"/>
+
+                    <View
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:background="@color/radar_layer_2"
+                        android:layout_marginLeft="@dimen/layout_margin_12"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_5"
+                        android:text="40"/>
+
+                    <View
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:background="@color/radar_layer_3"
+                        android:layout_marginLeft="@dimen/layout_margin_12"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_5"
+                        android:text="60"/>
+
+                    <View
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:background="@color/radar_layer_4"
+                        android:layout_marginLeft="@dimen/layout_margin_12"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_margin_5"
+                        android:text="80"/>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/drawablePadding_16">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize_18"
+                        android:textColor="@color/text_color_33"
+                        android:text="@string/health_com_tip"/>
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+                        android:fadingEdge="vertical">
+                        <TextView
+                            android:id="@+id/tv_hint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textSize_16"
+                            android:textColor="@color/text_color_66"
+                            android:text="@string/hints_a"/>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

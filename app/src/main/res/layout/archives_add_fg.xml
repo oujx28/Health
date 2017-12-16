@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg">
+
+    <RelativeLayout
+        style="@style/style_match_wrap"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingEnd="@dimen/padding_12"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_12"
+        android:paddingStart="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16">
+
+        <RelativeLayout
+            android:id="@+id/layout_conent"
+            style="@style/style_match_wrap"
+            android:background="@drawable/com_content_bg">
+
+            <TextView
+                android:id="@+id/tv_title_tip"
+                style="@style/com_title_tip"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginStart="@dimen/layout_margin_12"
+                tools:text="标题" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_below="@id/tv_title_tip"
+                android:layout_marginTop="@dimen/layout_margin_16">
+
+                <LinearLayout
+                    style="@style/style_match_match"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_12">
+
+                    <ImageButton
+                        android:id="@+id/headImg"
+                        style="@style/ImageButton"
+                        android:layout_width="128dp"
+                        android:layout_height="128dp"
+                        android:contentDescription="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/com_img_cream" />
+
+                    <RelativeLayout
+                        android:id="@+id/layout_preview"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="@dimen/layout_margin_24"
+                        android:visibility="gone">
+
+                        <com.tonghz.app.widget.CircleImageView
+                            android:id="@+id/img_show"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/def_img" />
+
+                        <ImageButton
+                            android:id="@+id/btn_delete"
+                            style="@style/ImageButton"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:contentDescription="@null"
+                            android:src="@drawable/com_delete" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    style="@style/Line_Vertical"
+                    android:background="@color/line_ea" />
+
+                <LinearLayout
+                    style="@style/style_match_wrap"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_height="@dimen/title_bar_height"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/archives_user_name"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_18" />
+
+                        <Button
+                            android:id="@+id/btn_username"
+                            style="@style/consult_records_button"
+                            tools:text="点墨书生" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/Line_Horizontal"
+                        android:background="@color/line_ea" />
+
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_height="@dimen/title_bar_height">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_gender"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup"
+                            style="@style/style_0_wrap"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioMale"
+                                style="@style/RadioButton.Wrap_Wrap"
+                                android:checked="true"
+                                android:drawableLeft="@drawable/com_rbtn_bg"
+                                android:drawableStart="@drawable/com_rbtn_bg"
+                                android:text="@string/records_gender_m"
+                                android:textColor="@color/text_color_33"
+                                android:textSize="@dimen/textSize_16" />
+
+                            <RadioButton
+                                android:id="@+id/radioFemale"
+                                style="@style/RadioButton.Wrap_Wrap"
+                                android:layout_marginLeft="@dimen/layout_margin_12"
+                                android:layout_marginRight="@dimen/layout_margin_12"
+                                android:drawableLeft="@drawable/com_rbtn_bg"
+                                android:drawableStart="@drawable/com_rbtn_bg"
+                                android:text="@string/records_gender_w"
+                                android:textColor="@color/text_color_33"
+                                android:textSize="@dimen/textSize_16" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <View
+                        style="@style/Line_Horizontal"
+                        android:background="@color/line_ea" />
+
+                    <LinearLayout
+                        style="@style/Table_LinearLayout"
+                        android:layout_height="@dimen/title_bar_height">
+
+                        <TextView
+                            style="@style/Table_LinearLayout_Left.TextView"
+                            android:text="@string/records_age"
+                            android:textColor="@color/text_color_66"
+                            android:textSize="@dimen/textSize_16" />
+
+                        <Button
+                            android:id="@+id/btn_age"
+                            style="@style/consult_records_button"
+                            tools:text="26" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/Line_Horizontal"
+                        android:background="@color/line_ea" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/com_bottom_button"
+            android:layout_below="@id/layout_conent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/com_submit" />
+    </RelativeLayout>
+
+</ScrollView>

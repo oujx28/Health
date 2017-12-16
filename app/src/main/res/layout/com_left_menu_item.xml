@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_menu_name"
+    style="@style/TextView"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/left_menu_item_bg"
+    android:drawableEnd="@drawable/com_click_bg"
+    android:drawableRight="@drawable/com_click_bg"
+    android:gravity="center"
+    android:textColor="@color/left_menu_item_text_color"
+    android:textSize="@dimen/textSize_18" />
+

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_match_match"
+    android:paddingBottom="@dimen/padding_8"
+    android:paddingEnd="@dimen/padding_12"
+    android:paddingLeft="@dimen/padding_8"
+    android:paddingRight="@dimen/padding_12"
+    android:paddingStart="@dimen/padding_8"
+    android:paddingTop="@dimen/padding_8"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/ImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/def_img" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextView.SingleLine"
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginStart="@dimen/layout_margin_12"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:layout_marginRight="@dimen/layout_margin_5"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_toLeftOf="@+id/img_play"
+        android:textColor="@color/text_color_33"
+        android:textSize="@dimen/textSize_16"
+        tools:text="江苏新闻广播" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/TextView.SingleLine"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignRight="@+id/tv_title"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:textColor="@color/text_color_66"
+        android:textSize="@dimen/textSize_16"
+        tools:text="内容" />
+
+    <ImageButton
+        android:id="@+id/img_play"
+        style="@style/ImageButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/radio_station_play"/>
+
+</RelativeLayout>

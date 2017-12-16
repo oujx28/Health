@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_match_match"
+    android:orientation="vertical">
+
+    <include layout="@layout/dia_com_title" />
+
+    <LinearLayout
+        style="@style/style_match_wrap"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_40"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingTop="@dimen/padding_40">
+
+        <Button
+            android:id="@+id/btn_phone"
+            style="@style/Button.Wrap_Wrap"
+            android:layout_marginEnd="@dimen/layout_margin_48"
+            android:layout_marginRight="@dimen/layout_margin_48"
+            android:background="@null"
+            android:drawablePadding="@dimen/drawablePadding_16"
+            android:drawableTop="@drawable/help_phone"
+            android:text="@string/help_phone"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_18" />
+
+    </LinearLayout>
+
+</LinearLayout>

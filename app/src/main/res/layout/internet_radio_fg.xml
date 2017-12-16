@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_match_match"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_16"
+    android:paddingEnd="@dimen/padding_12"
+    android:paddingLeft="@dimen/padding_8"
+    android:paddingRight="@dimen/padding_12"
+    android:paddingStart="@dimen/padding_8"
+    android:paddingTop="@dimen/padding_16">
+
+    <include layout="@layout/com_select_member" />
+
+    <RelativeLayout
+        style="@style/style_match_match"
+        android:layout_marginTop="@dimen/layout_margin_16"
+        android:background="@drawable/com_content_bg">
+
+        <TextView
+            android:id="@+id/tv_title_tip"
+            style="@style/TextView.Wrap_Wrap"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:layout_marginStart="@dimen/layout_margin_12"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:textColor="@color/text_color_33"
+            android:textSize="@dimen/textSize_18" />
+
+        <ListView
+            android:id="@+id/pullToRefreshListView"
+            android:layout_below="@id/tv_title_tip"
+            android:layout_marginTop="@dimen/layout_margin_5"
+            style="@style/PullToRefreshListView"
+            android:divider="@color/line_ea"
+            android:dividerHeight="1px" />
+    </RelativeLayout>
+
+</LinearLayout>

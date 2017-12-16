@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--远程咨询-->
+    <array name="consult_menu_array">
+        <item>健康档案</item>
+        <item>病历管理</item>
+        <item>健康评估</item>
+        <item>健康精选</item>
+        <item>健康咨询</item>
+        <item>用药提醒</item>
+        <item>体质辨识</item>
+    </array>
+
+    <!--家庭档案-->
+    <array name="archives_menu_array">
+        <item>家庭成员</item>
+        <item>定位设备</item>
+    </array>
+
+    <!--健康自检-->
+    <array name="health_menu_array">
+        <item>注册模式</item>
+        <item>访客模式</item>
+    </array>
+
+    <!--生活服务-->
+    <array name="services_menu_array">
+        <item>健康养生</item>
+        <item>网络电台</item>
+        <item>本地FM</item>
+        <item>娱乐天地</item>
+        <item>成长关怀</item>
+        <item>周边搜索</item>
+        <item>一键上网</item>
+    </array>
+
+    <!--本机设置-->
+    <array name="settings_menu_array">
+        <item>关于我们</item>
+        <item>系统设置</item>
+        <item>文件管理</item>
+        <item>二维码</item>
+        <item>OTA升级</item>
+    </array>
+
+    <!--体质评估-->
+    <array name="constitution_category_array_one">
+        <item>\t1、平和质（A型）</item>
+        <item>(1) 您精力充沛吗？</item>
+        <item>(2) 您容易疲乏吗？</item>
+        <item>(3) 您说话声音低弱无力吗？</item>
+        <item>(4) 您感到闷闷不乐、情绪低沉吗？</item>
+        <item>(5) 您比一般人耐受不了寒冷(冬天的寒冷，夏天的冷空调、电扇等)吗？</item>
+        <item>(6) 您能适应外界自然和社会环境的变化吗？</item>
+        <item>(7) 您容易失眠吗？</item>
+        <item>(8) 您容易忘事（健忘）吗？</item>
+    </array>
+    <array name="constitution_category_array_two">
+        <item>\t2、气虚质（B型）</item>
+        <item>(1) 您容易疲乏吗？</item>
+        <item>(2) 您容易气短（呼吸急促，接不上气）吗？</item>
+        <item>(3) 您容易心慌吗？</item>
+        <item>(4) 您容易头晕或站起时晕眩吗？</item>
+        <item>(5) 您比别人容易患感冒吗？</item>
+        <item>(6) 您喜欢安静、懒得说话吗？</item>
+        <item>(7) 您说话声音低弱无力吗？</item>
+        <item>(8) 您活动量稍大就容易出虚汗吗？</item>
+    </array>
+    <array name="constitution_category_array_three">
+        <item>\t3、阳虚质（C型）</item>
+        <item>(1) 您手脚发凉吗？</item>
+        <item>(2) 您胃脘部、背部或腰膝部怕冷吗？</item>
+        <item>(3) 您感到怕冷、衣服比别人穿得多吗？</item>
+        <item>(4) 您比一般人耐受不了寒冷(冬天的寒冷，夏天的冷空调、电扇等)吗？</item>
+        <item>(5) 您比别人容易患感冒吗？</item>
+        <item>(6) 您吃(喝)凉的东西会感到不舒服或者怕吃(喝)凉的吗？</item>
+        <item>(7) 您受凉或吃(喝)凉的东西后，容易腹泻、拉肚子吗？</item>
+        <item>(8) 天气寒凉时，您小便次数增多或尿量增多吗？</item>
+    </array>
+    <array name="constitution_category_array_four">
+        <item>\t4、阴虚质（D型）</item>
+        <item>(1) 您感到手脚心发热吗？</item>
+        <item>(2) 您感觉身体、脸上发热吗？</item>
+        <item>(3) 您皮肤或口唇干吗？</item>
+        <item>(4) 您口唇的颜色比一般人红吗？</item>
+        <item>(5) 您容易便秘或大便干燥吗？</item>
+        <item>(6) 您面部两颧潮红或偏红吗？</item>
+        <item>(7) 您感到眼睛干涩吗？</item>
+        <item>(8) 您感到口干咽燥、总想喝水吗？</item>
+    </array>
+    <array name="constitution_category_array_five">
+        <item>\t5、痰湿质（E型）</item>
+        <item>(1) 您感到胸闷或腹部胀满吗？</item>
+        <item>(2) 您感到身体沉重不轻松或不爽快吗？</item>
+        <item>(3) 您腹部肥满松软吗？</item>
+        <item>(4) 您有额部油脂分泌多的现象吗？</item>
+        <item>(5) 您上眼睑比别人肿（上眼睑有轻微隆起的现象）吗？</item>
+        <item>(6) 您嘴里有黏黏的感觉吗？</item>
+        <item>(7) 您平时痰多，特别是咽喉部总感到有痰堵着吗？</item>
+        <item>(8) 您舌苔厚腻或有舌苔厚厚的感觉吗？</item>
+    </array>
+    <array name="constitution_category_array_six">
+        <item>\t6、湿热质（F型）</item>
+        <item>(1) 您面部或鼻部有油腻感或者油亮发光吗？</item>
+        <item>(2) 您容易生痤疮或疮疖吗？</item>
+        <item>(3) 您感到口苦或嘴里有异味吗？</item>
+        <item>(4) 您大便粘滞不爽、有解不尽的感觉吗？</item>
+        <item>(5) 您小便时尿道有发热感、尿色浓（深）吗？</item>
+        <item>(6) 您带下色黄（白带颜色发黄）吗？（限女性）</item>
+        <item>(7) 您的阴囊部位潮湿吗？（限男性）</item>
+    </array>
+    <array name="constitution_category_array_seven">
+        <item>\t7、血瘀质（G型）</item>
+        <item>(1) 您的皮肤在不知不觉中会出现青紫瘀斑（皮下出血）吗？</item>
+        <item>(2) 您两颧部有细微红丝吗？</item>
+        <item>(3) 您身上有哪里疼痛吗？</item>
+        <item>(4) 您面色晦暗，或容易出现褐斑吗？</item>
+        <item>(5) 您容易有黑眼圈吗？</item>
+        <item>(6) 您容易忘事（健忘）吗？</item>
+        <item>(7) 您口唇颜色偏黯吗？</item>
+    </array>
+    <array name="constitution_category_array_eight">
+        <item>\t8、气郁质（H型）</item>
+        <item>(1) 您感到闷闷不乐、情绪低沉吗？</item>
+        <item>(2) 您容易精神紧张、焦虑不安吗？</item>
+        <item>(3) 您多愁善感、感情脆弱吗？</item>
+        <item>(4) 您容易感到害怕或受到惊吓吗？</item>
+        <item>(5) 您胁肋部或乳房胀痛吗？？</item>
+        <item>(6) 您无缘无故叹气吗？</item>
+        <item>(7) 您咽喉部有异物感，且吐之不出、咽之不下吗？</item>
+    </array>
+    <array name="constitution_category_array_nine">
+        <item>\t9、特禀质（I型）</item>
+        <item>(1) 您没有感冒时也会打喷嚏吗？</item>
+        <item>(2) 您没有感冒时也会鼻塞、流鼻涕吗？</item>
+        <item>(3) 您有因季节变化、温度变化或异味等原因而咳喘的现象吗？</item>
+        <item>(4) 您容易过敏（对药物、食物、气味、花粉或在季节交替、气候变化时）吗？</item>
+        <item>(5) 您的皮肤容易起荨麻疹（风团、风疹块、风疙瘩）吗？</item>
+        <item>(6) 您的皮肤因过敏出现过紫癜（紫红色瘀点、瘀斑）吗？</item>
+        <item>(7) 您的皮肤一抓就红，并出现抓痕吗？</item>
+    </array>
+    <array name="constitution_category_array">
+        <item>@array/constitution_category_array_one</item>
+        <item>@array/constitution_category_array_two</item>
+        <item>@array/constitution_category_array_three</item>
+        <item>@array/constitution_category_array_four</item>
+        <item>@array/constitution_category_array_five</item>
+        <item>@array/constitution_category_array_six</item>
+        <item>@array/constitution_category_array_seven</item>
+        <item>@array/constitution_category_array_eight</item>
+        <item>@array/constitution_category_array_nine</item>
+    </array>
+    <array name="constitution_type_array">
+        <item>平和质</item>
+        <item>气虚质</item>
+        <item>阳虚质</item>
+        <item>阴虚质</item>
+        <item>湿热质</item>
+        <item>痰湿质</item>
+        <item>血瘀质</item>
+        <item>气郁质</item>
+        <item>特禀质</item>
+    </array>
+</resources>
